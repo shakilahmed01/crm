@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>CRM</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
@@ -81,12 +81,12 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Customar Relationship Manegment
+                    Car Rental Management
                 </div>
 
                 <div class="links">
                     <a href="{{route('dashbord_index')}}">DASHBOARD</a>
-                    <a href="https://laracasts.com">Laracasts</a>
+                    <a href="{{route('vehicle_list')}}">Vehicle</a>
                     <a href="https://laravel-news.com">News</a>
                     <a href="https://blog.laravel.com">Blog</a>
                     <a href="https://nova.laravel.com">Nova</a>
